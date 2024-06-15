@@ -125,7 +125,7 @@ function App() {
           <ul>
             <li className="leading-9 text-xl">
               Early Days: Started with basic HTML and CSS, experimenting with
-              web design in 2021.
+              web design in 2022.
             </li>
 
             <li className="lg:leading-9 leading-7 text-xl mt-6">
