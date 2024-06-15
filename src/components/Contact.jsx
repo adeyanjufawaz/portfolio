@@ -103,7 +103,7 @@ function Contact() {
         </button>
 
         <div className="flex flex-wrap lg:justify-start justify-center mt-2 items-center gap-5">
-          <a href="mailto:smallbullet16@gmail.com">
+          <a href="mailto:adeyanjufawaz999@gmail.com">
             <SiGmail className="inline socialIcons" />
           </a>
 
