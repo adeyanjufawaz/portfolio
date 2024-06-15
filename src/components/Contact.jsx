@@ -32,24 +32,22 @@ function Contact() {
     e.preventDefault();
     setFormData({ user_name: "", user_email: "", message: "" });
 
-    emailjs
-      .sendForm("service_pxhna2k", "template_2pd8suu", form.current, {
-        publicKey: "02ug9Lx-dB3lcnHWp",
-      })
-      .then(
-        () => {
-          console.log("SUCCESS!");
-          handleSuccessSubmit();
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+    if (formData.user_name && formData.user_email && formData.message) {
+      emailjs
+        .sendForm("service_pxhna2k", "template_2pd8suu", form.current, {
+          publicKey: "02ug9Lx-dB3lcnHWp",
+        })
+        .then(
+          () => {
+            console.log("SUCCESS!");
+            handleSuccessSubmit();
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
+          }
+        );
+    }
   };
-
-  useEffect(() => {
-    console.log(formData);
-  }, [formData]);
 
   return (
     <div className="my-6 lg:my-12 p-12 bg-white rounded-lg lg:w-[75%] w-full ">
