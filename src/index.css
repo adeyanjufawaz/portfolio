@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  min-height: 150vh;
+  padding-top: 80px;
+  background-color: #dcdee1;
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 1.5;
+  
+}
+
+.image{
+  background-size: cover;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.techIcons{
+  height: 100px;
+  width: 100px;
+  color: #dcdee1;
+}
+.contactInput{
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #e7548c;
+  font-weight: 400;
+  padding: 5px;
+  width: 100%;
+}
+.textArea{
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #e7548c;
+  font-weight: 400;
+  width: 100%;
+}
+.socialIcons{
+  height: 30px;
+  width: 30px;
+  color: #333;
+  transition: all .35s ease-in-out;
+}
+.socialIcons:hover{
+  color:#e7548c;
+  transform: scale(1.3);
+}
+
+@media (max-width:850px) {
+  .container{
+  padding: 40px;
+}
+}
