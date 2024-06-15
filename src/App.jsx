@@ -74,7 +74,7 @@ function App() {
         </div>
       </nav>
       <section
-        className=" p-12 grid lg:grid-cols-2 grid-cols-1 justify-center items-center "
+        className=" lg:p-12 p-6 grid lg:grid-cols-2 grid-cols-1 justify-center items-center "
         ref={homeRef}
       >
         <div className="p-5 ">
