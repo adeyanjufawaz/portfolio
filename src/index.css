@@ -16,9 +16,12 @@ body{
 
 .image{
   background-size: cover;
-  object-fit: contain;
+  object-fit: cover;
+  border: 7px double #e7548c;
+  padding: 10px;
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 }
 .techIcons{
   height: 100px;

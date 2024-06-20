@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../src/components/navbar.css";
-import profileImg from "../src/img/profile-pic.png";
+import profileImg from "/img/fawaz1.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import { FaHtml5 } from "react-icons/fa";
 import Technologies from "./Technologies";
@@ -36,7 +36,7 @@ function App() {
     <div>
       <nav className={navHeight ? "navbar active" : "navbar"}>
         <h1
-          className="logo gradient"
+          className="logo gradient animate-bounce"
           onClick={() => {
             // scrollToElement(homeRef)
             window.scrollTo({
@@ -64,7 +64,7 @@ function App() {
             className="text-lg uppercase"
             onClick={() => scrollToElement(contactRef)}
           >
-            Contac Me
+            Contact Me
           </li>
         </ul>
         <div id="menuIcons" onClick={toggleNav}>
@@ -74,16 +74,22 @@ function App() {
         </div>
       </nav>
       <section
-        className=" lg:p-12 p-6 grid lg:grid-cols-2 grid-cols-1 justify-center items-center "
+        className=" p-10 lg:px-14 grid lg:grid-cols-3 gap-2 grid-cols-1 justify-center items-center "
         ref={homeRef}
       >
-        <div className="p-5 ">
-          <h2 style={{ color: "#f32170", fontWeight: "500", fontSize: "18px" }}>
+        <div className="col-span-2 ">
+          <h2
+            style={{ color: "#f32170", fontWeight: "500", fontSize: "28px" }}
+            className=""
+          >
             HELLO
           </h2>
           <h1 className="mt-6 text-4xl">
             I'm <span className="font-medium ">Fawaz</span> <br /> a{" "}
-            <span style={{ color: "#f32170", fontWeight: "500" }}>
+            <span
+              style={{ color: "#f32170", fontWeight: "500" }}
+              className="animate-pulse"
+            >
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={[" Front End Developer"]}
@@ -100,7 +106,7 @@ function App() {
             deliver a cohesive and engaging user experience.
           </p>
         </div>
-        <div className=" h-[450px] ">
+        <div className=" h-[300px] w-[300px] self-end place-self-end rounded-[50%]">
           <img src={profileImg} alt="MyImage" className="image" />
         </div>
       </section>
@@ -143,8 +149,8 @@ function App() {
                 <p className="ml-8 lg:my-0 my-6 ">
                   {" "}
                   - Currently, I am pursuing a Bachelor of Technology (BTech) in
-                  Software engineering at Federal University of Technology, Akure (FUTA), with an
-                  expected graduation in 2025.
+                  Software engineering at Federal University of Technology,
+                  Akure (FUTA), with an expected graduation in 2025.
                 </p>
               </ul>
             </li>

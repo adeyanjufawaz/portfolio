@@ -51,18 +51,18 @@
     }
     .navbar ul {
     display: flex;
+    padding: 20px;
     padding-top: 40px;
     flex-direction: column;
-    min-height: 60vh;
+    min-height: 80vh;
     justify-content: start;
     align-items: center;
-    gap: 20px;
     position: absolute;
     top: 80px;
     width: 100%;
     border-radius: 0 0 12px 0;
     left: 0;
-    gap: 50px;
+    gap: 80px;
     background-color: #a855f7;
     opacity: .97;
 }
