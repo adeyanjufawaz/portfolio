@@ -106,7 +106,7 @@ function App() {
             deliver a cohesive and engaging user experience.
           </p>
         </div>
-        <div className=" h-[300px] w-[300px] self-end place-self-end rounded-[50%]">
+        <div className=" h-[300px] w-[300px] self-center place-self-center lg:self-end lg:place-self-end rounded-[50%]">
           <img src={profileImg} alt="MyImage" className="image" />
         </div>
       </section>
