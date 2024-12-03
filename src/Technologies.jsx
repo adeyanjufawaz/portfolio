@@ -89,7 +89,7 @@ function Technologies() {
           ease: "easeInOut", // Easing function
         }}
       >
-        <FaReact className="techIcons" />
+        <SiTypescript className="techIcons" />
       </motion.div>
     </div>
   );
