@@ -115,7 +115,7 @@ function App() {
             />
           </p>
         </div>
-        <div className=" h-[300px] w-[300px] md:h-[400px] md:w-[400px]  self-center place-self-center lg:self-end lg:place-self-end rounded-[50%]">
+        <div className=" h-[300px] w-[300px] md:h-[400px] md:w-[400px]  self-center place-self-center lg:self-end lg:place-self-end rounded-[50%] bg-dark">
           <img src={profileImg} alt="MyImage" className="image" />
         </div>
       </section>
@@ -256,7 +256,9 @@ function App() {
         <div className="flex gap-5 lg:gap-16 flex-wrap  justify-center items-center">
           {/* Card */}
           <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-30 lg:w-64">
-            <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project1.png')]"></div>
+            <div className="bg-dark">
+              <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project1.png')]"></div>
+            </div>
             <div className="mt-3 flex flex-col gap-2">
               <h2 className="font-semibold text-red-500 text-sm lg:text-xl">
                 Cinemanest
@@ -287,7 +289,9 @@ function App() {
           </div>
           {/* Card */}
           <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-30 lg:w-64">
-            <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project2.png')]"></div>
+            <div className="bg-dark">
+              <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project2.png')]"></div>
+            </div>
             <div className="mt-3 flex flex-col gap-2">
               <h2 className="font-semibold text-red-500 text-sm lg:text-xl">
                 Melodify
@@ -318,7 +322,9 @@ function App() {
           </div>
           {/* Card */}
           <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-30 lg:w-64">
-            <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project3.png')]"></div>
+            <div className="bg-dark">
+              <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project3.png')]"></div>
+            </div>
             <div className="mt-3 flex flex-col gap-2">
               <h2 className="font-semibold text-red-500 text-sm lg:text-xl">
                 Chatter
