@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { ImLinkedin } from "react-icons/im";
 import { RiTwitterXFill } from "react-icons/ri";
 import { SiGmail } from "react-icons/si";
+import { motion } from "motion/react";
 
 function Contact() {
   const form = useRef();
@@ -48,9 +49,13 @@ function Contact() {
         );
     }
   };
-
   return (
-    <div className="my-6 lg:my-12 p-12 bg-white rounded-lg lg:w-[75%] w-full ">
+    <motion.div
+      initial={{ y: 30, opacity: 0, scale: 0.3 }}
+      whileInView={{ y: 0, opacity: 1, scale: 1 }}
+      transition={{ duration: 0.47 }}
+      className="my-6 lg:my-12 p-12 bg-white rounded-lg lg:w-[75%] w-full "
+    >
       <div
         className={
           succSubmit
@@ -118,7 +123,7 @@ function Contact() {
           </a>
         </div>
       </form>
-    </div>
+    </motion.div>
   );
 }
 
