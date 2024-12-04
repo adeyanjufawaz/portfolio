@@ -255,11 +255,11 @@ function App() {
         </h2>
         <div className="flex gap-5 lg:gap-16 flex-wrap  justify-center items-center">
           {/* Card */}
-          <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-30 lg:w-64">
+          <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-44 lg:w-64">
             <div className="bg-dark">
               <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project1.png')]"></div>
             </div>
-            <div className="mt-3 flex flex-col gap-2">
+            <div className="mt-3 flex flex-col gap-3">
               <h2 className="font-semibold text-red-500 text-sm lg:text-xl">
                 Cinemanest
               </h2>
@@ -288,11 +288,11 @@ function App() {
             </div>
           </div>
           {/* Card */}
-          <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-30 lg:w-64">
+          <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-44 lg:w-64">
             <div className="bg-dark">
               <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project2.png')]"></div>
             </div>
-            <div className="mt-3 flex flex-col gap-2">
+            <div className="mt-3 flex flex-col gap-3">
               <h2 className="font-semibold text-red-500 text-sm lg:text-xl">
                 Melodify
               </h2>
@@ -321,11 +321,11 @@ function App() {
             </div>
           </div>
           {/* Card */}
-          <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-30 lg:w-64">
+          <div className="bg-white p-2 rounded-lg shadow-md shadow-gray-300 w-44 lg:w-64">
             <div className="bg-dark">
               <div className="h-12 lg:h-32 w-full bg-cover bg-center  bg-[url('../public/img/project3.png')]"></div>
             </div>
-            <div className="mt-3 flex flex-col gap-2">
+            <div className="mt-3 flex flex-col gap-3">
               <h2 className="font-semibold text-red-500 text-sm lg:text-xl">
                 Chatter
               </h2>
